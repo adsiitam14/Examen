@@ -1,0 +1,7 @@
+Calculo la longitud de la cadena en len1
+En una cadena cadena auxiliar aux1 voy a ir guardando de caracter en caracter:
+guardo caracteres hasta tener una cadena con longitud len2 cuyo módulo al dividir len1 sea 0
+En otra cadena auxiliar aux2 igual a la original intento reemplazar todas las apariciones de aux1 por "". Si resulta ser aux2 = "" entonces acabé y es verdadero. En caso contrario:
+Repito desde el paso donde voy concatenando a aux1:
+me detengo al hallar len2 > len1/2
+Me detengo al haber encontrado verdadero o en caso que len2 > len1/2 sé que no se puede y devuelvo falso.
